@@ -1,0 +1,166 @@
+.page-wrapper {
+    width: 1096px; /* Your page width ! */
+    margin: auto; /* To center your page within the body */
+    background-color: #f7f7f7;
+	padding: 20px;
+	margin-top:10px;
+	z-index:10;
+
+}
+
+
+body{
+	background-image: url("../images/background.png");
+}
+
+
+#name {
+  font-size: 28px;
+  
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,black 19%,#D3D3D3 10%);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,black 19%,#D3D3D3 10%);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,black 19%,#D3D3D3 10%);
+  /* Standard syntax */
+  background: linear-gradient(left,black 19%,#D3D3D3 10%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+}
+
+#contact{
+  font-size: 19px;
+  text-align:right;
+  
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,black 59%,#D3D3D3 10%);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,black 59%,#D3D3D3 10%);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,black 59%,#D3D3D3 10%);
+  /* Standard syntax */
+  background: linear-gradient(left,black 59%,#D3D3D3 10%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+}
+
+.center{
+  font-size: 35px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.left{
+	float=left;
+}
+
+.bold{
+	font-size: 21px;
+	text-align: left;
+	font-weight:bold;
+}
+
+.justify{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(128, 128, 128);
+	text-align:justify;
+}
+
+
+
+.button{
+	background-image: -moz-linear-gradient( 90deg, rgb(87,144,220) 0%, rgb(146,218,255) 58%, rgb(212,238,254) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(87,144,220) 0%, rgb(146,218,255) 58%, rgb(212,238,254) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(87,144,220) 0%, rgb(146,218,255) 58%, rgb(212,238,254) 100%);
+	box-shadow: 0px 2px 2px 0px rgba(22, 59, 94, 0.72),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+	display: inline-block;
+	padding: 8px 30px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 50px 20px -25px #999;
+	
+	
+	
+}
+
+.buttontext1{
+	font-size: 21px;
+  font-family: "HelveticaNeueLTCom";
+  color: rgb(0, 0, 0);
+  line-height: 0.905;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.33);
+  
+  z-index: 89;
+}
+
+.buttontext2{
+  font-size: 14px;
+  font-family: "HelveticaNeueLTCom";
+  color: rgb(0, 0, 0);
+  line-height: 1.357;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.33);
+  z-index: 44;
+}
+
+
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0px 50px 20px -25px #999;
+  transform: translateY(4px);
+}
+
+
+.rowspace{
+	margin-top: 20px;
+}
+
+.textspace{
+	margin-top:1px;
+}
+
+.text{
+	font-size: 22px;
+  font-family: "HelveticaNeueLTCom";
+  color: rgb(87, 144, 220);
+  
+  text-align: left;
+}
+
+.message{
+	font-size: 12px;
+	font-family: "Arial";
+	font-style: italic;
+	text-align: center;
+	color: rgb(128, 128, 128);
+	background-image:url("../images/message.png");
+	padding:20px;
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+}
+
+.contact{
+	margin:auto;
+	background-color:#949494;
+	
+}
+
+.copyright{
+	margin:auto;
+	background-color:#686868;
+}
